@@ -1,0 +1,258 @@
+html {
+    background-color: #EDF2C5;
+    box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.contaner {
+    display: flex;
+    max-width: 1120px;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+body {
+
+}
+
+aside {
+    display: flex;
+    gap: 64px;
+}
+
+nav {
+  background-color: #778A50;
+}
+
+footer {
+    background-color:  #778A50;
+}
+
+.header {
+    display: flex;
+    height: 62px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 661px;
+    margin-top: 36px;
+}
+
+.header-vegetable {
+    color: #778A50;
+}
+
+.btn-group {
+    display: flex;
+    width: 208px;
+    height: 24px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.btn-group-icon {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 60px;
+    height: 24px;
+    gap: 12px;
+    padding-right: 12px;
+    border-right: 1px solid #778A50;
+}
+
+.btn-group-word {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 11px;
+    gap: 14px;
+}
+
+.btn-JOIN-box {
+    display: flex;
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 1px solid #778A50;
+}
+
+.btn-LOGIN-box {
+    display: flex;
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 1px solid #778A50;
+}
+
+.btn-group-word a{
+    color: #778A50;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.btn-group-word a:hover {
+    color:#EDF2C5;
+    background-color: #778A50;
+}
+
+.btn-instagram {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.btn-facebook {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.nav {
+    display: flex;
+    width: 1120px;
+    height: 44px;
+    border-radius: 3px;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 8px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list-item {
+    list-style: none;
+    margin: 15px;
+}
+
+.nav-list-item-link {
+    text-decoration: none;
+    color: #EDF2C5;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    padding: 15px;
+}
+
+.nav-list-item-link:hover {
+    color: #778A50;
+    background-color: #EDF2C5;
+}
+
+.img_main_pumpkin {
+    width: 1120px;
+    height: 448px;
+    flex-shrink: 0;
+    margin-bottom: 32px;
+}  
+
+.vegetables {
+    display: flex;
+    flex-direction: column;
+    width: 528px;
+    height: 201px;
+}
+
+.aside-title {
+    display: flex;
+    height: 45px;
+    padding: 10px 406px 11px 30px;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #778A50;
+    margin-bottom: 16px;
+}
+
+.vegetables-img {
+    display: flex;
+    gap: 16px; 
+}
+
+.box-contact {
+    display: flex;
+    flex-direction: column;
+    width: 528px;
+    height: 201px;
+}
+
+.box-contact-text {
+    display: flex;
+    background-color: #F7FBDA;
+    width: 528px;
+    height: 140px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    flex-shrink: 0;
+}
+
+.contact-text-p {
+    display: flex;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #7D7D7D;
+}
+
+.footer {
+    display: flex;
+    min-width: 1440px;
+    height: 60px;
+    padding: 21px 558px 21px 569px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 0%;
+
+}
+
+.footer p {
+    color: #EDF2C5;
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+h1 {
+    font-family: Noto Sans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+h2 {
+    color: #EDF2C5;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+p {
+    color: #7D7D7D;
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
